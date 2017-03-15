@@ -17,7 +17,7 @@
 
 3.  (Optional) Download and install OpenCV(version 2.4.X) as: http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_install/windows_install.html. Minimum opencv dlls is provided in "/Assets/Plugins/" in the Unity project. However, we strongly recomend a full installation of opencv and config opencv dlls into the environment variable.
 
-4.  (Optional) /opencv_dll/ folder holds a Visual Studio 2012 opencv project, which builds a opencv_dll.dll and copy to Unity plugin. If you need to compile and build it, open "/vuforia_stereo/StereoCameraProj/opencv_dll/opencv_dll.sln" with Visual Studio 2012 and config it to your opencv environment following:http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html, then build the release version dll.
+4.  (Optional) "/opencv_dll/" folder holds a Visual Studio 2012 opencv project, which builds a opencv_dll.dll and copy to Unity plugin. If you need to compile and build it, open "/vuforia_stereo/StereoCameraProj/opencv_dll/opencv_dll.sln" with Visual Studio 2012 and config it to your opencv environment following:http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html, then build the release version dll.
 
 ## How to Run
 
