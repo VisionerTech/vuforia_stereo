@@ -25,7 +25,7 @@
 
 2.  Open this project with Unity editor and open the scene "Demo".
 
-  ![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_105811.png "demo scene")
+![alt text](https://github.com/VisionerTech/vuforia_stereo/blob/master/readme_image/snipaste_20170315_105811.png "demo scene")
 
 
 3.  choose ARCamera game object, and config the Camera Device to "VMG-CAM-L" in WebCamBehaviour script.Then choose BackgroundPlaneR game object, under CameraR, config cam name property to "VMG-PROV-R" in BackgroundRectifyRight script.
