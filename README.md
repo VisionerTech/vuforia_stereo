@@ -2,7 +2,7 @@
 ## Vuforia Stereo
 
 
-[Vuforia](https://www.vuforia.com/) is a widely used marker-based AR SDK. This Unity example shows how to run Vuforia AR in VMG-PROV. In the dual/stereo camera set up, left camera is used for vuforia. Camera calibration data is used by rendering shader for rectification, detail explaination could be found [here](https://github.com/flankechen/vuforia_stereo_rectify).
+[Vuforia](https://www.vuforia.com/) is a widely used marker-based AR SDK. This Unity example shows how to run Vuforia AR in VMG-PROV. In the dual/stereo camera set up, left camera is used for vuforia. Right Camera game object is added as child to AR Camera as well as a background plane for camera texture. Camera calibration data is used by rendering shader for rectification, detail explaination could be found [here](https://github.com/flankechen/vuforia_stereo_rectify).
 
 ## Requirement:
 
@@ -25,6 +25,27 @@
 
 2.  Open this project with Unity editor and open the scene "Demo".
 
-3.  Run the project and place the camera towards the marker:"market4.jpg", a virtual sphere will appera.
+ ![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_105811.png "demo scene").
 
-4. change the vuforia app license key to yours and change the image target if you like.
+
+3.  choose ARCamera game object, and config the Camera Device to "VMG-CAM-L" in WebCamBehaviour script.Then choose BackgroundPlaneR game object, under CameraR, config cam name property to "VMG-PROV-R" in BackgroundRectifyRight script.
+
+ ![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_110557.png "AR camera").
+
+  ![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_110630.png "left camera name").
+
+    ![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_110730.png "right camera game object").
+
+    ![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_110753.png "right camer name").
+
+
+
+4.  Run the project and place the camera towards the marker:"market4.jpg", a virtual sphere will appera.
+
+![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/run_snap.png "run snap").
+
+5. change the vuforia app license key to yours and change the image target if you like.
+
+![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_111122.png "choose app license key").
+
+![alt text](https://github.com/VisionerTech/vuforia_stereo/tree/master/readme_image/snipaste_20170315_111159.png "app license key").
