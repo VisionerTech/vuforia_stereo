@@ -11,7 +11,7 @@
 
 ## Installation
 
-1.  Install and [Unity](https://unity3d.com/) 64bit editor(tested on Unity 5.4.0f3 (64-bit))
+1.  Install [Unity](https://unity3d.com/) 64bit editor(tested on Unity 5.4.0f3 (64-bit))
 
 2.  Download and install Visual Studio 2012, the download address is here: https://www.microsoft.com/zh-cn/download/details.aspx?id=30682
 
@@ -28,7 +28,7 @@
 ![alt text](https://github.com/VisionerTech/vuforia_stereo/blob/master/readme_image/snipaste_20170315_105811.png "demo scene")
 
 
-3.  choose ARCamera game object, and config the Camera Device to "VMG-CAM-L" in WebCamBehaviour script.Then choose BackgroundPlaneR game object, under CameraR, config cam name property to "VMG-PROV-R" in BackgroundRectifyRight script.
+3.  choose ARCamera game object, and config the Camera Device to "VMG-CAM-L" in WebCamBehaviour script.Then choose BackgroundPlaneR game object, under CameraR, config cam name property to "VMG-CAM-R" in BackgroundRectifyRight script.
 
   ![alt text](https://github.com/VisionerTech/vuforia_stereo/blob/master/readme_image/snipaste_20170315_110557.png "AR camera")
 
